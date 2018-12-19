@@ -1,0 +1,10 @@
+$("#reptar").hide();
+$("#raptor").hide();
+$("#Baby").click(function(){
+ $("#babies").slideToggle(); 
+$("#raptor").show(); 
+});
+$("#raptor").dblclick(function(){
+$("#raptor").hide(); 
+$("#reptar").show();
+});
